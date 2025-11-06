@@ -60,7 +60,7 @@ HTML = """
     <title>Cifra de Vigenère UTF-8</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background: #f4f7fb; color: #333; }
-        h1 { color: #0a3d62; }
+        h1 { color: #0a3d62; text-align: center }
         textarea, input[type=text] { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #ccc; }
         .buttons { margin-top: 10px; display: flex; gap: 10px; }
         input[type=submit] { flex: 1; padding: 10px 20px; border: none; border-radius: 8px; background: #0a3d62; color: white; cursor: pointer;}
@@ -71,7 +71,7 @@ HTML = """
     </style>
 </head>
 <body>
-    <h1>Cifra de Vigenère (UTF-8 + Base64)</h1>
+    <h1>APS - Criptografia</h1>
     <form method="post">
         <label>Mensagem:</label><br>
         <textarea name="mensagem" rows="4">{{mensagem}}</textarea><br><br>
